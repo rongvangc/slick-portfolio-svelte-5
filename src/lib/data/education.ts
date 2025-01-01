@@ -11,7 +11,7 @@ const items: Array<Education> = [
 		logo: Assets.Fpt,
 		name: '',
 		organization: 'FPT',
-		period: { from: new Date(2014, 0, 1), to: new Date(2018, 5, 1) },
+		period: { from: new Date(2014, 7, 1), to: new Date(2018, 5, 1) },
 		shortDescription: '',
 		slug: 'fpt-education',
 		subjects: ['Algorithm', 'SQL', 'Html/css', 'Javascript', 'English']
