@@ -5,24 +5,20 @@ import type { Project } from './types';
 const items: Array<Project> = [
 	{
 		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		color: 'orange',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [
-			{ to: 'https://github.com/', label: 'GitHub' },
-			{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'Reporsitory' },
-			{ to: 'https://svelte.dev/', label: 'Svelte' },
-			{ to: 'https://www.shadcn-svelte.com/', label: 'Shadcn Svelte' }
-		],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio With Svelte',
+		links: [{ to: 'https://www.fwd.com.ph/en/customer-portal/login', label: 'Website' }],
+		logo: Assets.Fwd,
+		name: 'PH Customer Portal',
 		period: {
-			from: new Date()
+			from: new Date('06-06-2022'),
+			to: new Date()
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		type: 'Customer Portal'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
@@ -32,10 +28,11 @@ const items: Array<Project> = [
 		shortDescription:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		logo: Assets.Fwd,
+		name: 'MY Customer Portal',
 		period: {
-			from: new Date()
+			from: new Date('06-06-2023'),
+			to: new Date()
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
 		type: 'Website Template',

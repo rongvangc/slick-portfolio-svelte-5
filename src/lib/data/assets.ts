@@ -54,6 +54,8 @@ const Assets = {
 	Firebase: asset('firebase.png'),
 	Sass: asset('sass.png'),
 	Unknown: asset('no-img.svg'),
+	Fwd: asset('fwd.svg'),
+	Fpt: asset('fpt.svg'),
 	MongoDB: asset('mongodb.svg'),
 	Redis: asset('redis.svg'),
 	Tailwind: asset('tailwind.svg'),
@@ -69,7 +71,16 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+	Next: asset('next.svg'),
+	Prisma: asset('prisma.svg'),
+	Drizzle: asset('drizzle.svg'),
+	Supabase: asset('supabase.svg'),
+	Figma: asset('figma.svg'),
+	Playwright: asset('playwright.png'),
+	Cypress: asset('cypress.svg'),
+	Jenkins: asset('jenkins.svg'),
+	Aws: asset('aws.svg')
 };
 
 export default Assets;
